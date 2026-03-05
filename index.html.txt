@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pyrex Society</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="overlay"></div>
+
+<header>
+
+<div class="logo-container">
+<div class="logo-ring"></div>
+<div class="logo">P</div>
+</div>
+
+<h1>PYREX SOCIETY</h1>
+
+<p class="tag">MEMBERS ONLY</p>
+
+<p class="launch">Website Opens April 6, 2026</p>
+
+<div id="countdown"></div>
+
+</header>
+
+<section class="notify">
+
+<h2>Get Drop Alerts</h2>
+
+<form>
+
+<input type="email" placeholder="Enter Email">
+
+<input type="tel" placeholder="Phone for Text Updates">
+
+<button type="submit">Notify Me</button>
+
+</form>
+
+</section>
+
+<section class="hoodies">
+
+<h2>First Drop</h2>
+
+<div class="products">
+
+<div class="item">
+<img src="hoodie1.jpg">
+<p>Flame Hoodie</p>
+</div>
+
+<div class="item">
+<img src="hoodie2.jpg">
+<p>Pyrex Zip Hoodie</p>
+</div>
+
+<div class="item">
+<img src="hoodie3.jpg">
+<p>Members Hoodie</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<a href="https://instagram.com/pyrexsociety_" target="_blank">
+Follow @pyrexsociety_
+</a>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

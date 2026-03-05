@@ -1,0 +1,120 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:black;
+color:white;
+text-align:center;
+overflow-x:hidden;
+}
+
+header{
+padding-top:80px;
+}
+
+h1{
+font-size:60px;
+letter-spacing:6px;
+margin-top:20px;
+}
+
+.tag{
+opacity:0.7;
+margin-top:5px;
+}
+
+.launch{
+margin-top:10px;
+font-size:18px;
+}
+
+#countdown{
+font-size:28px;
+margin-top:20px;
+}
+
+.logo-container{
+position:relative;
+width:160px;
+height:160px;
+margin:auto;
+}
+
+.logo{
+font-size:80px;
+font-weight:bold;
+color:white;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+text-shadow:0 0 20px red;
+}
+
+.logo-ring{
+width:160px;
+height:160px;
+border:3px solid red;
+border-radius:50%;
+position:absolute;
+animation:spin 10s linear infinite;
+box-shadow:0 0 25px red;
+}
+
+@keyframes spin{
+
+0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}
+
+}
+
+.notify{
+margin-top:80px;
+}
+
+.notify input{
+padding:12px;
+margin:10px;
+border:none;
+width:240px;
+}
+
+.notify button{
+padding:12px 30px;
+background:red;
+border:none;
+color:white;
+cursor:pointer;
+}
+
+.hoodies{
+margin-top:100px;
+}
+
+.products{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.item img{
+width:220px;
+border-radius:10px;
+}
+
+footer{
+margin-top:100px;
+padding:40px;
+font-size:18px;
+}
+
+footer a{
+color:red;
+text-decoration:none;
+}
